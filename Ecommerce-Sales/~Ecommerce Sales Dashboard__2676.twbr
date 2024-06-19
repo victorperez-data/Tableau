@@ -1,0 +1,2437 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0515.0324                               -->
+<workbook locale='en_US' original-version='18.1' source-build='2024.1.3 (20241.24.0515.0324)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AccessibleZoneTabOrder.true...AccessibleZoneTabOrder />
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <AutoCreateAndUpdateDSDPhoneLayouts />
+    <IntuitiveSorting />
+    <IntuitiveSorting_SP2 />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='Dataco' inline='true' name='federated.0y7b457167men51dwj5y40osh8iw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Dataco' name='textscan.0dcepal0c1nuoq1fu3u5m10mu7pa'>
+            <connection class='textscan' cleaning='yes' compat='no' csvFile='C:/Users/vikto/Desktop/DS/Tableau/Ecommerce-Sales/Dataco.csv' dataRefreshTime='' directory='C:/Users/vikto/Desktop/DS/Tableau/Sales' filename='C:/Users/vikto/AppData/Local/Temp/TableauTemp/1fo4cse1pr1qn612hca5m00qnpdx/Dataco.csv.xlsx' interpretationMode='8' password='' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0dcepal0c1nuoq1fu3u5m10mu7pa' name='Dataco.csv' table='[C:\Users\vikto\Desktop\DS\Tableau\Sales\Dataco#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:T10001:no:A1:T10001:1' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Additional Order items' ordinal='0' />
+            <column datatype='string' name='Category Name' ordinal='1' />
+            <column datatype='string' name='Customer City' ordinal='2' />
+            <column datatype='string' name='Customer Country' ordinal='3' />
+            <column datatype='string' name='Customer Fname' ordinal='4' />
+            <column datatype='integer' name='Customer Id' ordinal='5' />
+            <column datatype='string' name='Customer Segment' ordinal='6' />
+            <column datatype='string' name='Customer State' ordinal='7' />
+            <column datatype='integer' name='Customer Zipcode' ordinal='8' />
+            <column datatype='string' name='Market' ordinal='9' />
+            <column datatype='integer' name='Order Customer Id' ordinal='10' />
+            <column datatype='date' name='Order Date' ordinal='11' />
+            <column datatype='integer' name='Order Id' ordinal='12' />
+            <column datatype='string' name='Order Region' ordinal='13' />
+            <column datatype='real' name='Order Item Total' ordinal='14' />
+            <column datatype='integer' name='Order Quantity' ordinal='15' />
+            <column datatype='real' name='Product Price' ordinal='16' />
+            <column datatype='real' name='Profit Margin' ordinal='17' />
+            <column datatype='real' name='Profit Per Order' ordinal='18' />
+            <column datatype='real' name='Sales' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0dcepal0c1nuoq1fu3u5m10mu7pa' name='Dataco.csv' table='[C:\Users\vikto\Desktop\DS\Tableau\Sales\Dataco#csv]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:T10001:no:A1:T10001:1' header='yes' locale='en_US' separator=','>
+            <column datatype='string' name='Additional Order items' ordinal='0' />
+            <column datatype='string' name='Category Name' ordinal='1' />
+            <column datatype='string' name='Customer City' ordinal='2' />
+            <column datatype='string' name='Customer Country' ordinal='3' />
+            <column datatype='string' name='Customer Fname' ordinal='4' />
+            <column datatype='integer' name='Customer Id' ordinal='5' />
+            <column datatype='string' name='Customer Segment' ordinal='6' />
+            <column datatype='string' name='Customer State' ordinal='7' />
+            <column datatype='integer' name='Customer Zipcode' ordinal='8' />
+            <column datatype='string' name='Market' ordinal='9' />
+            <column datatype='integer' name='Order Customer Id' ordinal='10' />
+            <column datatype='date' name='Order Date' ordinal='11' />
+            <column datatype='integer' name='Order Id' ordinal='12' />
+            <column datatype='string' name='Order Region' ordinal='13' />
+            <column datatype='real' name='Order Item Total' ordinal='14' />
+            <column datatype='integer' name='Order Quantity' ordinal='15' />
+            <column datatype='real' name='Product Price' ordinal='16' />
+            <column datatype='real' name='Profit Margin' ordinal='17' />
+            <column datatype='real' name='Profit Per Order' ordinal='18' />
+            <column datatype='real' name='Sales' ordinal='19' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:T10001:no:A1:T10001:1&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Additional Order items</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Additional Order items]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Additional Order items</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Category Name]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Category Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer City]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Customer City</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Country</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer Country]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Customer Country</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Fname</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer Fname]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Customer Fname</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Customer Id]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Customer Id</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Segment</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer Segment]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Customer Segment</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Customer State]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Customer State</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Customer Zipcode</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Customer Zipcode]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Customer Zipcode</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Market</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Market]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Market</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Customer Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Customer Id]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Order Customer Id</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[Order Date]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Order Date</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Id</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Id]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Order Id</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Region</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Order Region]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Order Region</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Item Total</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Order Item Total]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Order Item Total</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Order Quantity</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Order Quantity]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Order Quantity</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Product Price</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Product Price]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Product Price</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit Margin</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profit Margin]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Profit Margin</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Profit Per Order</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Profit Per Order]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Profit Per Order</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sales</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Sales]</local-name>
+            <parent-name>[Dataco.csv]</parent-name>
+            <remote-alias>Sales</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='YTD Sales LOD' datatype='real' name='[Calculation_265993883774201856]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Sales] END)}' />
+      </column>
+      <column caption='YOY Sales %' datatype='real' name='[Calculation_265993883775635459]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([Calculation_265993883774201856] - [YTD Sales LOD (copy)_265993883775418370]) / [YTD Sales LOD (copy)_265993883775418370]' />
+      </column>
+      <column caption='YOY Sales Margin' datatype='string' name='[Calculation_265993883778383877]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_265993883775635459] &gt; 0 THEN &apos;▲&apos; ELSEIF [Calculation_265993883775635459] &lt; 0 THEN &apos;▼&apos; END' />
+      </column>
+      <column caption='Year Sales % Diff' datatype='real' name='[Calculation_590253057006620672]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(SUM([Year Sales % Diff (copy)_590253057006895105]) - SUM([YTD Sales (copy)_590253057007009795])) / SUM([YTD Sales (copy)_590253057007009795])' />
+      </column>
+      <column caption='Sales Margin' datatype='string' name='[Calculation_590253057007923204]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_590253057006620672] &lt; 0 THEN &apos;Less than PY&apos;&#13;&#10;ELSEIF [Calculation_590253057006620672] &gt; 0 THEN &apos;More than PY&apos;&#13;&#10;ELSEIF ISNULL([Calculation_590253057006620672]) THEN &apos;No sales in PY&apos;&#13;&#10;ELSE &apos;Equal than PY&apos; END' />
+      </column>
+      <column caption='Icon Positive % Diff' datatype='string' name='[Calculation_590253057008640005]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_590253057006620672] &gt; 0 THEN &apos;▲&apos;&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[Customer City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column datatype='string' name='[Customer Country]' role='dimension' semantic-role='[Country].[ISO3166_2]' type='nominal' />
+      <column datatype='string' name='[Customer State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Customer Zipcode]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <column caption='Icon Negative % Diff' datatype='string' name='[Icon Positive % Diff (copy 2)_590253057010921479]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_590253057006620672] &lt; 0 THEN &apos;▼&apos;&#13;&#10;END' />
+      </column>
+      <column caption='Icon Equal % Diff' datatype='string' name='[Icon Positive % Diff (copy)_590253057010913286]' role='measure' type='nominal'>
+        <calculation class='tableau' formula='IF [Calculation_590253057006620672] = 0 THEN &apos;=&apos;&#13;&#10;END' />
+      </column>
+      <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+      <column caption='PYTD Quantity LOD' datatype='integer' name='[PYTD Profit LOD (copy)_265993883782508555]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date])) - 1} THEN [Order Quantity] END)}' />
+      </column>
+      <column caption='PYTD Profit LOD' datatype='real' name='[PYTD Sales LOD (copy)_265993883779379207]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date])) - 1} THEN [Profit Per Order] END)}' />
+      </column>
+      <column caption='YOY Quantity %' datatype='real' name='[YOY Sales % (copy)_265993883782766605]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([YTD Profit  LOD (copy)_265993883782258698] - [PYTD Profit LOD (copy)_265993883782508555]) / [PYTD Profit LOD (copy)_265993883782508555]' />
+      </column>
+      <column caption='YOY Profit %' datatype='real' name='[YOY Sales (copy)_265993883779526664]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='([YTD Sales LOD (copy)_265993883779223558] - [PYTD Sales LOD (copy)_265993883779379207]) / [PYTD Sales LOD (copy)_265993883779379207]' />
+      </column>
+      <column caption='YOY Profit Margin' datatype='string' name='[YOY Sales Margin (copy)_265993883779878921]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [YOY Sales (copy)_265993883779526664] &gt; 0 THEN &apos;▲&apos; ELSEIF [YOY Sales (copy)_265993883779526664] &lt; 0 THEN &apos;▼&apos; END' />
+      </column>
+      <column caption='YOY Quantity Margin' datatype='string' name='[YOY Sales Margin (copy)_265993883782758412]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='IF [YOY Sales % (copy)_265993883782766605] &gt; 0 THEN &apos;▲&apos; ELSEIF [YOY Sales % (copy)_265993883782766605] &lt; 0 THEN &apos;▼&apos; END' />
+      </column>
+      <column caption='YTD Quantity  LOD' datatype='integer' name='[YTD Profit  LOD (copy)_265993883782258698]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Order Quantity] END)}' />
+      </column>
+      <column caption='PYTD Sales' datatype='real' name='[YTD Sales (copy)_590253057007009795]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))-1} THEN [Sales] END' />
+      </column>
+      <column caption='PYTD Sales LOD' datatype='real' name='[YTD Sales LOD (copy)_265993883775418370]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date])) - 1} THEN [Sales] END)}' />
+      </column>
+      <column caption='YTD Profit  LOD' datatype='real' name='[YTD Sales LOD (copy)_265993883779223558]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Profit Per Order] END)}' />
+      </column>
+      <column caption='YTD Sales' datatype='real' name='[Year Sales % Diff (copy)_590253057006895105]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Sales] END' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='Dataco.csv' datatype='table' name='[__tableau_internal_object_id__].[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]' role='measure' type='quantitative' />
+      <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Calculation_590253057007923204]' derivation='User' name='[usr:Calculation_590253057007923204:nk]' pivot='key' type='nominal' />
+      <group caption='Action (Market)' hidden='true' name='[Action (Market)]' name-style='unqualified' user:auto-column='sheet_link'>
+        <groupfilter function='crossjoin'>
+          <groupfilter function='level-members' level='[Market]' />
+        </groupfilter>
+      </group>
+      <drill-paths>
+        <drill-path name='Customer Country, Customer State, Customer City'>
+          <field>[Customer Country]</field>
+          <field>[Customer State]</field>
+          <field>[Customer City]</field>
+        </drill-path>
+      </drill-paths>
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection access_mode='readonly' authentication='auth-none' author-locale='en_US' class='hyper' dbname='C:/Users/vikto/AppData/Local/Temp/TableauTemp/#TableauTemp_0uosecq17g6lom16alc6y0x27nbb.hyper' default-settings='yes' schema='Extract' sslmode='' update-time='' username='tableau_internal_user'>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Additional Order items</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Additional Order items]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Additional Order items</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>122</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Category Name</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category Name]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category Name</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>122</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer City</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer City]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer City</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>1911</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Country</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Country]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Country</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>2</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Fname</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Fname]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Fname</remote-alias>
+              <ordinal>4</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>921</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Customer Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Id</remote-alias>
+              <ordinal>5</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26326</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Segment</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer Segment]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Segment</remote-alias>
+              <ordinal>6</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>3</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer State</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Customer State]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer State</remote-alias>
+              <ordinal>7</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>55</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Customer Zipcode</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Customer Zipcode]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Customer Zipcode</remote-alias>
+              <ordinal>8</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3791</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Market</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Market]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Market</remote-alias>
+              <ordinal>9</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Customer Id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Order Customer Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Customer Id</remote-alias>
+              <ordinal>10</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>26326</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Date</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Order Date]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Date</remote-alias>
+              <ordinal>11</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>3012</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Id</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Order Id]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Id</remote-alias>
+              <ordinal>12</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>60896</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Region</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Order Region]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Region</remote-alias>
+              <ordinal>13</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>23</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='0' name='LEN_RUS' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Item Total</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Order Item Total]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Item Total</remote-alias>
+              <ordinal>14</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>3105</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Order Quantity</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Order Quantity]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Order Quantity</remote-alias>
+              <ordinal>15</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>5</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Product Price</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Product Price]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Product Price</remote-alias>
+              <ordinal>16</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>214</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profit Margin</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Profit Margin]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profit Margin</remote-alias>
+              <ordinal>17</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>2855</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Profit Per Order</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Profit Per Order]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Profit Per Order</remote-alias>
+              <ordinal>18</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>18234</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sales</remote-name>
+              <remote-type>5</remote-type>
+              <local-name>[Sales]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sales</remote-alias>
+              <ordinal>19</ordinal>
+              <family>Dataco.csv</family>
+              <local-type>real</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>470</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-hidden-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[usr:Calculation_590253057007923204:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;More than PY&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;No sales in PY&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;Less than PY&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Market:nk]' type='palette'>
+            <map to='#59a14f'>
+              <bucket>&quot;USCA&quot;</bucket>
+            </map>
+            <map to='#76b7b2'>
+              <bucket>&quot;Europe&quot;</bucket>
+            </map>
+            <map to='#e15759'>
+              <bucket>&quot;LATAM&quot;</bucket>
+            </map>
+            <map to='#edc948'>
+              <bucket>&quot;Africa&quot;</bucket>
+            </map>
+            <map to='#f28e2b'>
+              <bucket>&quot;Pacific Asia&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Spain&quot;' />
+      </semantic-values>
+      <date-options start-of-week='monday' />
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Dataco.csv' id='Dataco.csv_6BD9926599E84A0AA7E7A6BEB737E457'>
+            <properties context=''>
+              <relation connection='textscan.0dcepal0c1nuoq1fu3u5m10mu7pa' name='Dataco.csv' table='[C:\Users\vikto\Desktop\DS\Tableau\Sales\Dataco#csv]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:T10001:no:A1:T10001:1' header='yes' locale='en_US' separator=','>
+                  <column datatype='string' name='Additional Order items' ordinal='0' />
+                  <column datatype='string' name='Category Name' ordinal='1' />
+                  <column datatype='string' name='Customer City' ordinal='2' />
+                  <column datatype='string' name='Customer Country' ordinal='3' />
+                  <column datatype='string' name='Customer Fname' ordinal='4' />
+                  <column datatype='integer' name='Customer Id' ordinal='5' />
+                  <column datatype='string' name='Customer Segment' ordinal='6' />
+                  <column datatype='string' name='Customer State' ordinal='7' />
+                  <column datatype='integer' name='Customer Zipcode' ordinal='8' />
+                  <column datatype='string' name='Market' ordinal='9' />
+                  <column datatype='integer' name='Order Customer Id' ordinal='10' />
+                  <column datatype='date' name='Order Date' ordinal='11' />
+                  <column datatype='integer' name='Order Id' ordinal='12' />
+                  <column datatype='string' name='Order Region' ordinal='13' />
+                  <column datatype='real' name='Order Item Total' ordinal='14' />
+                  <column datatype='integer' name='Order Quantity' ordinal='15' />
+                  <column datatype='real' name='Product Price' ordinal='16' />
+                  <column datatype='real' name='Profit Margin' ordinal='17' />
+                  <column datatype='real' name='Profit Per Order' ordinal='18' />
+                  <column datatype='real' name='Sales' ordinal='19' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <shared-views>
+    <shared-view name='federated.0y7b457167men51dwj5y40osh8iw'>
+      <datasources>
+        <datasource caption='Dataco' name='federated.0y7b457167men51dwj5y40osh8iw' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0y7b457167men51dwj5y40osh8iw'>
+        <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+        <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[none:Customer Segment:nk]' context='true'>
+        <groupfilter function='level-members' level='[none:Customer Segment:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+      <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' context='true'>
+        <groupfilter function='level-members' level='[none:Market:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+      </filter>
+    </shared-view>
+  </shared-views>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_F0251C590CC646A38B98E0E5C3B5064E]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='DASHBOARD Ecommerce Sales' type='sheet' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='AGG(Sales Margin)' />
+        <param name='target' value='DASHBOARD Ecommerce Sales' />
+      </command>
+    </action>
+    <action caption='Filter 1 (generated)' name='[Action2_25AD93BE2C9344919D59613A0BB06A3A]'>
+      <activation auto-clear='true' type='on-select' />
+      <source dashboard='DASHBOARD Ecommerce Sales' type='sheet' worksheet='Market Share by Sales' />
+      <command command='tsc:tsl-filter'>
+        <param name='special-fields' value='all' />
+        <param name='target' value='DASHBOARD Ecommerce Sales' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Category wise YTD vs PYTD Sales'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#2b52a7' fontname='Tableau Semibold' fontsize='14'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco' name='federated.0y7b457167men51dwj5y40osh8iw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y7b457167men51dwj5y40osh8iw'>
+            <column caption='Year Sales % Diff' datatype='real' name='[Calculation_590253057006620672]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(SUM([Year Sales % Diff (copy)_590253057006895105]) - SUM([YTD Sales (copy)_590253057007009795])) / SUM([YTD Sales (copy)_590253057007009795])' />
+            </column>
+            <column caption='Sales Margin' datatype='string' name='[Calculation_590253057007923204]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_590253057006620672] &lt; 0 THEN &apos;Less than PY&apos;&#13;&#10;ELSEIF [Calculation_590253057006620672] &gt; 0 THEN &apos;More than PY&apos;&#13;&#10;ELSEIF ISNULL([Calculation_590253057006620672]) THEN &apos;No sales in PY&apos;&#13;&#10;ELSE &apos;Equal than PY&apos; END' />
+            </column>
+            <column caption='Icon Positive % Diff' datatype='string' name='[Calculation_590253057008640005]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_590253057006620672] &gt; 0 THEN &apos;▲&apos;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Category Name]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column caption='Icon Negative % Diff' datatype='string' name='[Icon Positive % Diff (copy 2)_590253057010921479]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_590253057006620672] &lt; 0 THEN &apos;▼&apos;&#13;&#10;END' />
+            </column>
+            <column caption='Icon Equal % Diff' datatype='string' name='[Icon Positive % Diff (copy)_590253057010913286]' role='measure' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_590253057006620672] = 0 THEN &apos;=&apos;&#13;&#10;END' />
+            </column>
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column caption='PYTD Sales' datatype='real' name='[YTD Sales (copy)_590253057007009795]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))-1} THEN [Sales] END' />
+            </column>
+            <column caption='YTD Sales' datatype='real' name='[Year Sales % Diff (copy)_590253057006895105]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Sales] END' />
+            </column>
+            <column-instance column='[Category Name]' derivation='None' name='[none:Category Name:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Year Sales % Diff (copy)_590253057006895105]' derivation='Sum' name='[sum:Year Sales % Diff (copy)_590253057006895105:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_590253057006620672]' derivation='User' name='[usr:Calculation_590253057006620672:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_590253057007923204]' derivation='User' name='[usr:Calculation_590253057007923204:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_590253057008640005]' derivation='User' name='[usr:Calculation_590253057008640005:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Icon Positive % Diff (copy 2)_590253057010921479]' derivation='User' name='[usr:Icon Positive % Diff (copy 2)_590253057010921479:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Icon Positive % Diff (copy)_590253057010913286]' derivation='User' name='[usr:Icon Positive % Diff (copy)_590253057010913286:nk]' pivot='key' type='nominal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[Action (Market)]'>
+            <groupfilter function='level-members' level='[Market]' user:ui-action-filter='[Action2_25AD93BE2C9344919D59613A0BB06A3A]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]'>
+            <groupfilter count='10' end='top' function='end' units='records' user:ui-marker='end' user:ui-top-by-field='true'>
+              <groupfilter direction='DESC' expression='SUM([Sales])' function='order' user:ui-marker='order'>
+                <groupfilter function='level-members' level='[none:Category Name:nk]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <shelf-sorts>
+            <shelf-sort-v2 dimension-to-sort='[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]' direction='DESC' is-on-innermost-dimension='true' measure-to-sort-by='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]' shelf='rows' />
+          </shelf-sorts>
+          <slices>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Customer Segment:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[Action (Market)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]' field-type='quantitative' fold='true' scope='cols' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]' scope='cols' value='false' />
+            <format attr='display' class='1' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]' scope='cols' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='tick-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057006620672:qk]' value='p0.00%' />
+            <format attr='font-family' field='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057006620672:qk]' value='Tableau Semibold' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]' value='c&quot;$&quot;#,##0,,.00M&quot; &quot;;-&quot;$&quot;#,##0,,.00M&quot; &quot;' />
+            <format attr='font-family' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]' value='Tableau Semibold' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='width' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]' value='152' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]' value='Tableau Medium' />
+            <format attr='font-size' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]' value='10' />
+            <format attr='text-orientation' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]' value='0' />
+            <format attr='vertical-align' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]' value='center' />
+            <format attr='wrap' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]' value='on' />
+            <format attr='text-align' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]' value='left' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-family' value='Tableau Medium' />
+            <format attr='border-width' value='0' />
+            <format attr='border-style' value='none' />
+          </style-rule>
+          <style-rule element='legend-title'>
+            <format attr='text-align' value='auto' />
+          </style-rule>
+          <style-rule element='legend-title-text'>
+            <format attr='color' field='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057007923204:nk]' value='Sales Margin'>
+              <formatted-text>
+                <run fontalignment='1' fontcolor='#000000' fontsize='10'>Sales Margin</run>
+              </formatted-text>
+            </format>
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Category Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>YTD Sales:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year Sales % Diff:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057006620672:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Sales Margin:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057007923204:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ff0000' fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Icon Positive % Diff (copy 2)_590253057010921479:nk]>]]></run>
+                <run fontcolor='#00aa00' fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057008640005:nk]>]]></run>
+                <run fontcolor='#898989' fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Icon Positive % Diff (copy)_590253057010913286:nk]> ]]></run>
+                <run fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057006620672:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]' x-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <color column='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057007923204:nk]' />
+              <text column='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057006620672:qk]' />
+              <text column='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057008640005:nk]' />
+              <text column='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Icon Positive % Diff (copy 2)_590253057010921479:nk]' />
+              <text column='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Icon Positive % Diff (copy)_590253057010913286:nk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Category Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>YTD Sales:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year Sales % Diff:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057006620672:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Sales Margin:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057007923204:nk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#ff0000' fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Icon Positive % Diff (copy 2)_590253057010921479:nk]>]]></run>
+                <run fontcolor='#00aa00' fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057008640005:nk]>]]></run>
+                <run fontcolor='#898989' fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Icon Positive % Diff (copy)_590253057010913286:nk]> ]]></run>
+                <run fontname='Tableau Semibold' fontsize='10'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057006620672:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Bar' />
+            <encodings>
+              <text column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]' />
+            </encodings>
+            <customized-tooltip>
+              <formatted-text>
+                <run fontcolor='#787878'>Category Name:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>YTD Sales:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Year Sales % Diff:&#9;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>Sales Margin:&#9;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontalignment='0'>&lt;</run>
+                <run fontalignment='0'>[federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk]</run>
+                <run fontalignment='0'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='left' />
+                <format attr='vertical-align' value='center' />
+                <format attr='wrap' value='on' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0y7b457167men51dwj5y40osh8iw].[none:Category Name:nk]</rows>
+        <cols>([federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk] + [federated.0y7b457167men51dwj5y40osh8iw].[sum:Year Sales % Diff (copy)_590253057006895105:qk])</cols>
+        <table-calculations>
+          <partitionable-measures>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057008640005:nk]</column>
+          </partitionable-measures>
+        </table-calculations>
+      </table>
+      <simple-id uuid='{20850B42-98A5-4BD7-AF28-1DD936CFFBAD}' />
+    </worksheet>
+    <worksheet name='Market Share by Sales'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#2b52a7' fontname='Tableau Bold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco' name='federated.0y7b457167men51dwj5y40osh8iw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y7b457167men51dwj5y40osh8iw'>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_265993883787444243]' role='measure' type='quantitative' user:unnamed='Market Share by Sales'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column caption='AVG(0)' datatype='real' name='[Calculation_265993883787464724]' role='measure' type='quantitative' user:unnamed='Market Share by Sales'>
+              <calculation class='tableau' formula='AVG(0)' />
+            </column>
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Sales]' derivation='Sum' name='[pcto:sum:Sales:qk]' pivot='key' type='quantitative'>
+              <table-calc ordering-type='Rows' type='PctTotal' />
+            </column-instance>
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_265993883787444243]' derivation='User' name='[usr:Calculation_265993883787444243:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_265993883787464724]' derivation='User' name='[usr:Calculation_265993883787464724:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Year' name='[yr:Order Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[yr:Order Date:ok]'>
+            <groupfilter function='member' level='[yr:Order Date:ok]' member='2017' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Customer Segment:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[yr:Order Date:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='height' field='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk]' value='10' />
+            <format attr='height' field='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787444243:qk]' value='10' />
+            <encoding attr='space' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787444243:qk]' field-type='quantitative' fold='true' scope='cols' type='space' />
+            <format attr='display' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787444243:qk]' scope='cols' value='false' />
+            <format attr='tick-color' scope='cols' value='#00000000' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='height' value='213' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]' value='c&quot;$&quot;#,##0,,.00M&quot; &quot;;-&quot;$&quot;#,##0,,.00M&quot; &quot;' />
+            <format attr='font-weight' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]' value='bold' />
+            <format attr='font-family' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]' value='Tableau Semibold' />
+            <format attr='font-family' field='[federated.0y7b457167men51dwj5y40osh8iw].[pcto:sum:Sales:qk]' value='Tableau Semibold' />
+            <format attr='font-family' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' value='Tableau Semibold' />
+            <format attr='font-size' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]' value='11' />
+            <format attr='color' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]' value='#000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='font-family' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' value='Tableau Semibold' />
+            <format attr='color' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' value='#72b966' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='line-pattern-only' scope='cols' value='solid' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='div-level' scope='cols' value='0' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <color column='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' />
+              <size column='[federated.0y7b457167men51dwj5y40osh8iw].[pcto:sum:Sales:qk]' />
+              <text column='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' />
+              <text column='[federated.0y7b457167men51dwj5y40osh8iw].[pcto:sum:Sales:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#555555'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[pcto:sum:Sales:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-family' value='Tableau Semibold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='size' value='1.7691160440444946' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' x-axis-name='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787444243:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Pie' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]' />
+            </encodings>
+            <customized-label>
+              <formatted-text>
+                <run>YTD Sales</run>
+                <run>Æ&#10;</run>
+                <run><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-size' value='9' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='size' value='1.087458610534668' />
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-color' value='#ffffff' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols>([federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk] + [federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787444243:qk])</cols>
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]</field>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk]</field>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[pcto:sum:Sales:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Africa&quot;</value>
+                <value>0.0</value>
+                <value>0.022523797407518201</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='36' y='16' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]</field>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk]</field>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[pcto:sum:Sales:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Pacific Asia&quot;</value>
+                <value>0.0</value>
+                <value>0.083168663080680424</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-48' y='13' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]</field>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk]</field>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[pcto:sum:Sales:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;USCA&quot;</value>
+                <value>0.0</value>
+                <value>0.0020842737761244149</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-5' y='31' />
+          </mark-label>
+          <mark-label id='3'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk]</field>
+                  </x-fields>
+                  <y-fields />
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]</field>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_265993883787464724:qk]</field>
+                  <field>[federated.0y7b457167men51dwj5y40osh8iw].[pcto:sum:Sales:qk]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>&quot;Europe&quot;</value>
+                <value>0.0</value>
+                <value>0.43365324595951016</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='34' y='0' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{4B1FA4D8-905D-4566-8082-CEEB57D9FD97}' />
+    </worksheet>
+    <worksheet name='Market wise Customer Aquisition Rank per Month'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#2b52a7' fontname='Tableau Semibold'>&lt;Sheet Name&gt;</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco' name='federated.0y7b457167men51dwj5y40osh8iw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y7b457167men51dwj5y40osh8iw'>
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Order Quantity]' role='measure' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Month' name='[mn:Order Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Order Quantity]' derivation='Sum' name='[rank:sum:Order Quantity:qk:2]' pivot='key' type='quantitative'>
+              <table-calc ordering-field='[federated.0y7b457167men51dwj5y40osh8iw].[Market]' ordering-type='Field' rank-options='Competition,Descending' type='Rank' />
+            </column-instance>
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[Action (Market)]'>
+            <groupfilter function='level-members' level='[Market]' user:ui-action-filter='[Action2_25AD93BE2C9344919D59613A0BB06A3A]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Customer Segment:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[Action (Market)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='1' field='[federated.0y7b457167men51dwj5y40osh8iw].[rank:sum:Order Quantity:qk:2]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <encoding attr='space' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[rank:sum:Order Quantity:qk:2]' field-type='quantitative' reverse='true' scope='rows' type='space' />
+            <format attr='display' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[rank:sum:Order Quantity:qk:2]' scope='rows' value='false' />
+            <format attr='display' class='1' field='[federated.0y7b457167men51dwj5y40osh8iw].[rank:sum:Order Quantity:qk:2]' scope='rows' value='false' />
+            <format attr='stroke-size' value='0' />
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='border-width' data-class='subtotal' scope='rows' value='0' />
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-align' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' value='center' />
+            <format attr='vertical-align' field='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' value='center' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='border-width' data-class='total' value='0' />
+            <format attr='border-style' data-class='total' value='none' />
+            <format attr='border-width' data-class='subtotal' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='line-pattern-only' value='solid' />
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+            <format attr='div-level' scope='rows' value='0' />
+          </style-rule>
+          <style-rule element='header-div'>
+            <format attr='line-pattern-only' scope='rows' value='solid' />
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='legend'>
+            <format attr='font-family' value='Tableau Medium' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' />
+            </encodings>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0y7b457167men51dwj5y40osh8iw].[rank:sum:Order Quantity:qk:2]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' />
+            </encodings>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0y7b457167men51dwj5y40osh8iw].[rank:sum:Order Quantity:qk:2]' y-index='1'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Circle' />
+            <encodings>
+              <color column='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' />
+              <text column='[federated.0y7b457167men51dwj5y40osh8iw].[rank:sum:Order Quantity:qk:2]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='wrap' value='on' />
+                <format attr='vertical-align' value='center' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='user' />
+                <format attr='font-family' value='Tableau Semibold' />
+                <format attr='font-size' value='10' />
+                <format attr='color' value='#ffffff' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+              </style-rule>
+              <style-rule element='trendline'>
+                <format attr='stroke-size' value='0' />
+                <format attr='line-visibility' value='off' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0y7b457167men51dwj5y40osh8iw].[rank:sum:Order Quantity:qk:2] + [federated.0y7b457167men51dwj5y40osh8iw].[rank:sum:Order Quantity:qk:2])</rows>
+        <cols>[federated.0y7b457167men51dwj5y40osh8iw].[mn:Order Date:ok]</cols>
+      </table>
+      <simple-id uuid='{0C253F44-2F06-4FD7-8831-E3E93F83FE81}' />
+    </worksheet>
+    <worksheet name='Order Quantity KPI'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#2b52a7' fontname='Tableau Bold' fontsize='14'>Order </run>
+            <run fontalignment='1' fontcolor='#2b52a7' fontname='Tableau Bold'>Quantity</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#000000' fontname='Tableau Bold' fontsize='20'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[sum:YTD Profit  LOD (copy)_265993883782258698:qk]>]]></run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run bold='true' fontalignment='1' fontcolor='#00aa00' fontname='Tableau Bold' fontsize='12'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[none:YOY Sales Margin (copy)_265993883782758412:nk]> <[federated.0y7b457167men51dwj5y40osh8iw].[sum:YOY Sales % (copy)_265993883782766605:qk]>]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco' name='federated.0y7b457167men51dwj5y40osh8iw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y7b457167men51dwj5y40osh8iw'>
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='integer' name='[Order Quantity]' role='measure' type='quantitative' />
+            <column caption='PYTD Quantity LOD' datatype='integer' name='[PYTD Profit LOD (copy)_265993883782508555]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date])) - 1} THEN [Order Quantity] END)}' />
+            </column>
+            <column caption='YOY Quantity %' datatype='real' name='[YOY Sales % (copy)_265993883782766605]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([YTD Profit  LOD (copy)_265993883782258698] - [PYTD Profit LOD (copy)_265993883782508555]) / [PYTD Profit LOD (copy)_265993883782508555]' />
+            </column>
+            <column caption='YOY Quantity Margin' datatype='string' name='[YOY Sales Margin (copy)_265993883782758412]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [YOY Sales % (copy)_265993883782766605] &gt; 0 THEN &apos;▲&apos; ELSEIF [YOY Sales % (copy)_265993883782766605] &lt; 0 THEN &apos;▼&apos; END' />
+            </column>
+            <column caption='YTD Quantity  LOD' datatype='integer' name='[YTD Profit  LOD (copy)_265993883782258698]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Order Quantity] END)}' />
+            </column>
+            <column-instance column='[Order Date]' derivation='Month' name='[mn:Order Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[YOY Sales Margin (copy)_265993883782758412]' derivation='None' name='[none:YOY Sales Margin (copy)_265993883782758412:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Order Quantity]' derivation='Sum' name='[sum:Order Quantity:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YOY Sales % (copy)_265993883782766605]' derivation='Sum' name='[sum:YOY Sales % (copy)_265993883782766605:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YTD Profit  LOD (copy)_265993883782258698]' derivation='Sum' name='[sum:YTD Profit  LOD (copy)_265993883782258698:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Month-Trunc' name='[tmn:Order Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Year' name='[yr:Order Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[Action (Market)]'>
+            <groupfilter function='level-members' level='[Market]' user:ui-action-filter='[Action2_25AD93BE2C9344919D59613A0BB06A3A]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[yr:Order Date:ok]'>
+            <groupfilter function='member' level='[yr:Order Date:ok]' member='2017' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Customer Segment:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[yr:Order Date:ok]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[Action (Market)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[tmn:Order Date:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Order Quantity:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0y7b457167men51dwj5y40osh8iw].[mn:Order Date:ok]' value='112' />
+            <format attr='width' field='[federated.0y7b457167men51dwj5y40osh8iw].[tmn:Order Date:qk]' value='112' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:YTD Profit  LOD (copy)_265993883782258698:qk]' value='N' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:YOY Sales % (copy)_265993883782766605:qk]' value='p0.00%' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Order Quantity:qk]' value='n#,##0,.00K;-#,##0,.00K' />
+          </style-rule>
+          <style-rule element='header'>
+            <format attr='height-header' value='10' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:YOY Sales % (copy)_265993883782766605:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Order Quantity:qk]' />
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:YTD Profit  LOD (copy)_265993883782258698:qk]' />
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:YOY Sales % (copy)_265993883782766605:qk]' />
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[none:YOY Sales Margin (copy)_265993883782758412:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='vertical-align' value='bottom' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-family' value='Tableau Semibold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#000000' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0y7b457167men51dwj5y40osh8iw].[sum:Order Quantity:qk]</rows>
+        <cols>[federated.0y7b457167men51dwj5y40osh8iw].[tmn:Order Date:qk]</cols>
+      </table>
+      <simple-id uuid='{2E40EB5E-51B5-4020-B477-B878A3682736}' />
+    </worksheet>
+    <worksheet name='Profit KPI'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontalignment='1' fontcolor='#2b52a7' fontname='Tableau Semibold'>Profit</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run fontalignment='1' fontname='Tableau Bold' fontsize='20'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[sum:YTD Sales LOD (copy)_265993883779223558:qk]>]]></run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#ff0000' fontname='Tableau Bold' fontsize='12'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[none:YOY Sales Margin (copy)_265993883779878921:nk]> <[federated.0y7b457167men51dwj5y40osh8iw].[sum:YOY Sales (copy)_265993883779526664:qk]> ]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco' name='federated.0y7b457167men51dwj5y40osh8iw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y7b457167men51dwj5y40osh8iw'>
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column caption='PYTD Profit LOD' datatype='real' name='[PYTD Sales LOD (copy)_265993883779379207]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date])) - 1} THEN [Profit Per Order] END)}' />
+            </column>
+            <column datatype='real' name='[Profit Per Order]' role='measure' type='quantitative' />
+            <column caption='YOY Profit %' datatype='real' name='[YOY Sales (copy)_265993883779526664]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([YTD Sales LOD (copy)_265993883779223558] - [PYTD Sales LOD (copy)_265993883779379207]) / [PYTD Sales LOD (copy)_265993883779379207]' />
+            </column>
+            <column caption='YOY Profit Margin' datatype='string' name='[YOY Sales Margin (copy)_265993883779878921]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [YOY Sales (copy)_265993883779526664] &gt; 0 THEN &apos;▲&apos; ELSEIF [YOY Sales (copy)_265993883779526664] &lt; 0 THEN &apos;▼&apos; END' />
+            </column>
+            <column caption='YTD Profit  LOD' datatype='real' name='[YTD Sales LOD (copy)_265993883779223558]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Profit Per Order] END)}' />
+            </column>
+            <column-instance column='[Order Date]' derivation='Month' name='[mn:Order Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[YOY Sales Margin (copy)_265993883779878921]' derivation='None' name='[none:YOY Sales Margin (copy)_265993883779878921:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Profit Per Order]' derivation='Sum' name='[sum:Profit Per Order:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YOY Sales (copy)_265993883779526664]' derivation='Sum' name='[sum:YOY Sales (copy)_265993883779526664:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[YTD Sales LOD (copy)_265993883779223558]' derivation='Sum' name='[sum:YTD Sales LOD (copy)_265993883779223558:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Month-Trunc' name='[tmn:Order Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Year' name='[yr:Order Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[Action (Market)]'>
+            <groupfilter function='level-members' level='[Market]' user:ui-action-filter='[Action2_25AD93BE2C9344919D59613A0BB06A3A]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[yr:Order Date:ok]'>
+            <groupfilter function='member' level='[yr:Order Date:ok]' member='2017' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Customer Segment:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[yr:Order Date:ok]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[Action (Market)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[tmn:Order Date:qk]' scope='cols' value='false' />
+            <format attr='display' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Profit Per Order:qk]' scope='rows' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0y7b457167men51dwj5y40osh8iw].[mn:Order Date:ok]' value='112' />
+            <format attr='width' field='[federated.0y7b457167men51dwj5y40osh8iw].[tmn:Order Date:qk]' value='112' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Profit Per Order:qk]' value='c&quot;$&quot;#,##0,,.00M;-&quot;$&quot;#,##0,,.00M' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:YTD Sales LOD (copy)_265993883779223558:qk]' value='c&quot;$&quot;#,##0,,.00M&quot; €&quot;;-&quot;$&quot;#,##0,,.00M&quot; €&quot;' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:YOY Sales (copy)_265993883779526664:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Profit Per Order:qk]' />
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:YTD Sales LOD (copy)_265993883779223558:qk]' />
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:YOY Sales (copy)_265993883779526664:qk]' />
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[none:YOY Sales Margin (copy)_265993883779878921:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='wrap' value='on' />
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='top' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='auto' />
+                <format attr='font-family' value='Tableau Semibold' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#000000' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0y7b457167men51dwj5y40osh8iw].[sum:Profit Per Order:qk]</rows>
+        <cols>[federated.0y7b457167men51dwj5y40osh8iw].[tmn:Order Date:qk]</cols>
+      </table>
+      <simple-id uuid='{513F5212-97CB-4288-BDCA-CE9057E3EABE}' />
+    </worksheet>
+    <worksheet name='Sales KPI'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#2b52a7' fontname='Tableau Semibold'>Sales</run>
+            <run fontalignment='1'>Æ&#10;&#10;</run>
+            <run fontalignment='1' fontname='Tableau Bold' fontsize='20'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[sum:Calculation_265993883774201856:qk]>]]></run>
+            <run fontalignment='1'>Æ&#10;</run>
+            <run fontalignment='1' fontcolor='#00aa00' fontname='Tableau Bold' fontsize='12'><![CDATA[<[federated.0y7b457167men51dwj5y40osh8iw].[none:Calculation_265993883778383877:nk]> <[federated.0y7b457167men51dwj5y40osh8iw].[sum:Calculation_265993883775635459:qk]> ]]></run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Dataco' name='federated.0y7b457167men51dwj5y40osh8iw' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0y7b457167men51dwj5y40osh8iw'>
+            <column caption='YTD Sales LOD' datatype='real' name='[Calculation_265993883774201856]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date]))} THEN [Sales] END)}' />
+            </column>
+            <column caption='YOY Sales %' datatype='real' name='[Calculation_265993883775635459]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='([Calculation_265993883774201856] - [YTD Sales LOD (copy)_265993883775418370]) / [YTD Sales LOD (copy)_265993883775418370]' />
+            </column>
+            <column caption='YOY Sales Margin' datatype='string' name='[Calculation_265993883778383877]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='IF [Calculation_265993883775635459] &gt; 0 THEN &apos;▲&apos; ELSEIF [Calculation_265993883775635459] &lt; 0 THEN &apos;▼&apos; END' />
+            </column>
+            <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+            <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+            <column datatype='date' name='[Order Date]' role='dimension' type='ordinal' />
+            <column datatype='real' name='[Sales]' role='measure' type='quantitative' />
+            <column caption='PYTD Sales LOD' datatype='real' name='[YTD Sales LOD (copy)_265993883775418370]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='{ FIXED : SUM(IF YEAR([Order Date]) = {MAX(YEAR([Order Date])) - 1} THEN [Sales] END)}' />
+            </column>
+            <column-instance column='[Order Date]' derivation='Month' name='[mn:Order Date:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Calculation_265993883778383877]' derivation='None' name='[none:Calculation_265993883778383877:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Calculation_265993883774201856]' derivation='Sum' name='[sum:Calculation_265993883774201856:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_265993883775635459]' derivation='Sum' name='[sum:Calculation_265993883775635459:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Sales]' derivation='Sum' name='[sum:Sales:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Month-Trunc' name='[tmn:Order Date:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Order Date]' derivation='Year' name='[yr:Order Date:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[Action (Market)]'>
+            <groupfilter function='level-members' level='[Market]' user:ui-action-filter='[Action2_25AD93BE2C9344919D59613A0BB06A3A]' user:ui-enumeration='all' user:ui-marker='enumerate' />
+          </filter>
+          <filter class='categorical' column='[federated.0y7b457167men51dwj5y40osh8iw].[yr:Order Date:ok]'>
+            <groupfilter function='member' level='[yr:Order Date:ok]' member='2017' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate' />
+          </filter>
+          <slices>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Customer Segment:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[yr:Order Date:ok]</column>
+            <column>[federated.0y7b457167men51dwj5y40osh8iw].[Action (Market)]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]' scope='rows' value='false' />
+            <format attr='display' class='0' field='[federated.0y7b457167men51dwj5y40osh8iw].[tmn:Order Date:qk]' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='width' field='[federated.0y7b457167men51dwj5y40osh8iw].[mn:Order Date:ok]' value='112' />
+            <format attr='width' field='[federated.0y7b457167men51dwj5y40osh8iw].[tmn:Order Date:qk]' value='112' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]' value='c&quot;$&quot;#,##0,,.00M&quot; &quot;;-&quot;$&quot;#,##0,,.00M&quot; &quot;' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Calculation_265993883774201856:qk]' value='c&quot;$&quot;#,##0,,.00M&quot; &quot;;-&quot;$&quot;#,##0,,.00M&quot; &quot;' />
+            <format attr='text-format' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Calculation_265993883775635459:qk]' value='p0.00%' />
+            <format attr='font-weight' field='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]' value='bold' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='refline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <text column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]' />
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Calculation_265993883774201856:qk]' />
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[sum:Calculation_265993883775635459:qk]' />
+              <lod column='[federated.0y7b457167men51dwj5y40osh8iw].[none:Calculation_265993883778383877:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='cell'>
+                <format attr='wrap' value='off' />
+                <format attr='vertical-align' value='bottom' />
+                <format attr='text-align' value='center' />
+              </style-rule>
+              <style-rule element='datalabel'>
+                <format attr='color-mode' value='match' />
+                <format attr='font-weight' value='bold' />
+                <format attr='font-family' value='Tableau Semibold' />
+                <format attr='color' value='#000000' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-color' value='#000000' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-mode' value='line-ends' />
+              </style-rule>
+              <style-rule element='pane'>
+                <format attr='minwidth' value='-1' />
+                <format attr='maxwidth' value='-1' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.0y7b457167men51dwj5y40osh8iw].[sum:Sales:qk]</rows>
+        <cols>[federated.0y7b457167men51dwj5y40osh8iw].[tmn:Order Date:qk]</cols>
+      </table>
+      <simple-id uuid='{12A7CA05-D197-47AD-8C29-4DCFADE3FE87}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard _.fcp.AccessibleZoneTabOrder.true...enable-sort-zone-taborder='true' name='DASHBOARD Ecommerce Sales'>
+      <layout-options>
+        <title>
+          <formatted-text>
+            <run bold='true' fontcolor='#7700b3' fontname='Tableau Semibold' fontsize='22'>ECOMMERCE SALES ANALYSIS</run>
+            <run bold='true' fontcolor='#aa0000' fontsize='20'>Æ </run>
+            <run bold='true' fontcolor='#000000' fontsize='20'>|</run>
+            <run bold='true' fontcolor='#aa0000' fontsize='20'>Æ </run>
+            <run fontcolor='#8484c6' fontname='Tableau Semibold' fontsize='15'>Current vs Previous year comparison</run>
+          </formatted-text>
+        </title>
+      </layout-options>
+      <style />
+      <size sizing-mode='automatic' />
+      <datasources>
+        <datasource caption='Dataco' name='federated.0y7b457167men51dwj5y40osh8iw' />
+      </datasources>
+      <datasource-dependencies datasource='federated.0y7b457167men51dwj5y40osh8iw'>
+        <column datatype='string' name='[Customer Segment]' role='dimension' type='nominal' />
+        <column datatype='string' name='[Market]' role='dimension' type='nominal' />
+        <column-instance column='[Customer Segment]' derivation='None' name='[none:Customer Segment:nk]' pivot='key' type='nominal' />
+        <column-instance column='[Market]' derivation='None' name='[none:Market:nk]' pivot='key' type='nominal' />
+      </datasource-dependencies>
+      <zones>
+        <zone h='100000' id='4' type-v2='layout-basic' w='100000' x='0' y='0'>
+          <zone h='98388' id='45' param='horz' type-v2='layout-flow' w='99166' x='417' y='806'>
+            <zone h='98388' id='22' type-v2='layout-basic' w='99166' x='417' y='806'>
+              <zone h='47767' id='14' param='vert' type-v2='layout-flow' w='99166' x='417' y='806'>
+                <zone fixed-size='78' h='8669' id='16' is-fixed='true' type-v2='title' w='99166' x='417' y='806'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='4' h='1209' id='32' is-fixed='true' type-v2='empty' w='99166' x='417' y='9475'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='background-color' value='#c70000' />
+                  </zone-style>
+                </zone>
+                <zone h='37889' id='25' layout-strategy-id='distribute-evenly' param='horz' type-v2='layout-flow' w='99166' x='417' y='10684'>
+                  <zone h='37904' id='26' name='Sales KPI' w='24804' x='417' y='10685'>
+                    <layout-cache minheight='256' minwidth='100' type-h='scalable' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#898989' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='4' />
+                      <format attr='background-color' value='#dfedeb' />
+                    </zone-style>
+                  </zone>
+                  <zone h='37904' id='27' name='Profit KPI' w='24805' x='25221' y='10685'>
+                    <layout-cache minheight='256' minwidth='100' type-h='scalable' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#898989' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='4' />
+                      <format attr='background-color' value='#f5ead7' />
+                    </zone-style>
+                  </zone>
+                  <zone h='37904' id='28' name='Order Quantity KPI' w='24805' x='50026' y='10685'>
+                    <layout-cache minheight='256' minwidth='169' type-h='scalable' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#898989' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='4' />
+                      <format attr='background-color' value='#f3ebf3' />
+                    </zone-style>
+                  </zone>
+                  <zone h='37904' id='29' name='Market Share by Sales' w='24752' x='74831' y='10685'>
+                    <layout-cache minwidth='102' type-h='cell' type-w='scalable' />
+                    <zone-style>
+                      <format attr='border-color' value='#898989' />
+                      <format attr='border-style' value='solid' />
+                      <format attr='border-width' value='1' />
+                      <format attr='margin' value='4' />
+                      <format attr='background-color' value='#e8edda' />
+                    </zone-style>
+                  </zone>
+                </zone>
+              </zone>
+              <zone h='50621' id='33' name='Category wise YTD vs PYTD Sales' w='49576' x='417' y='48573'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='1' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#f0eae8' />
+                </zone-style>
+              </zone>
+              <zone h='50621' id='37' name='Market wise Customer Aquisition Rank per Month' w='49590' x='49993' y='48573'>
+                <zone-style>
+                  <format attr='border-color' value='#000000' />
+                  <format attr='border-style' value='solid' />
+                  <format attr='border-width' value='1' />
+                  <format attr='margin' value='4' />
+                  <format attr='background-color' value='#f9e9e0' />
+                </zone-style>
+              </zone>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='margin' value='8' />
+          </zone-style>
+        </zone>
+        <zone h='11961' id='40' name='Category wise YTD vs PYTD Sales' pane-specification-id='3' param='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057007923204:nk]' type-v2='color' w='9826' x='39125' y='81998' />
+        <zone h='2836' id='43' leg-item-layout='horz' name='Market wise Customer Aquisition Rank per Month' pane-specification-id='1' param='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' show-title='false' type-v2='color' w='36129' x='58838' y='53391' />
+        <zone h='7891' id='46' mode='checkdropdown' name='Category wise YTD vs PYTD Sales' param='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' type-v2='filter' values='database' w='9596' x='79541' y='863'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='background-color' value='#ffdede' />
+          </zone-style>
+        </zone>
+        <zone h='7891' id='47' mode='checkdropdown' name='Category wise YTD vs PYTD Sales' param='[federated.0y7b457167men51dwj5y40osh8iw].[none:Customer Segment:nk]' type-v2='filter' values='database' w='9596' x='89559' y='863'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='background-color' value='#ffdede' />
+          </zone-style>
+        </zone>
+      </zones>
+      <devicelayouts>
+        <devicelayout auto-generated='true' name='Phone'>
+          <layout-options>
+            <title>
+              <formatted-text>
+                <run bold='true' fontcolor='#7700b3' fontname='Tableau Semibold' fontsize='22'>ECOMMERCE SALES ANALYSIS</run>
+                <run bold='true' fontcolor='#aa0000' fontsize='20'>Æ </run>
+                <run bold='true' fontcolor='#000000' fontsize='20'>|</run>
+                <run bold='true' fontcolor='#aa0000' fontsize='20'>Æ </run>
+                <run fontcolor='#8484c6' fontname='Tableau Semibold' fontsize='15'>Current vs Previous year comparison</run>
+              </formatted-text>
+            </title>
+          </layout-options>
+          <size maxheight='2000' minheight='2000' sizing-mode='vscroll' />
+          <zones>
+            <zone h='100000' id='53' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='98028' id='52' param='vert' type-v2='layout-flow' w='99042' x='479' y='986'>
+                <zone fixed-size='65' h='9001' id='16' type-v2='title' w='99042' x='479' y='986'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='264' h='34279' id='26' is-fixed='true' name='Sales KPI' w='24806' x='479' y='11467'>
+                  <layout-cache minheight='256' minwidth='100' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#898989' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#dfedeb' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='264' h='34279' id='27' is-fixed='true' name='Profit KPI' w='24745' x='25285' y='11467'>
+                  <layout-cache minheight='256' minwidth='100' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#898989' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f5ead7' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='264' h='34279' id='28' is-fixed='true' name='Order Quantity KPI' w='24745' x='50030' y='11467'>
+                  <layout-cache minheight='256' minwidth='169' type-h='scalable' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#898989' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f3ebf3' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='264' h='34279' id='29' is-fixed='true' name='Market Share by Sales' w='24746' x='74775' y='11467'>
+                  <layout-cache minwidth='102' type-h='cell' type-w='scalable' />
+                  <zone-style>
+                    <format attr='border-color' value='#898989' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#e8edda' />
+                  </zone-style>
+                </zone>
+                <zone h='8138' id='46' mode='checkdropdown' name='Category wise YTD vs PYTD Sales' param='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' type-v2='filter' values='database' w='9587' x='79569' y='863'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffdede' />
+                  </zone-style>
+                </zone>
+                <zone h='8138' id='47' mode='checkdropdown' name='Category wise YTD vs PYTD Sales' param='[federated.0y7b457167men51dwj5y40osh8iw].[none:Customer Segment:nk]' type-v2='filter' values='database' w='9587' x='89575' y='863'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#ffdede' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='53268' id='33' is-fixed='true' name='Category wise YTD vs PYTD Sales' w='49520' x='479' y='45746'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f0eae8' />
+                  </zone-style>
+                </zone>
+                <zone h='11961' id='40' name='Category wise YTD vs PYTD Sales' pane-specification-id='3' param='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057007923204:nk]' type-v2='color' w='9826' x='39125' y='81998'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+                <zone fixed-size='280' h='53268' id='37' is-fixed='true' name='Market wise Customer Aquisition Rank per Month' w='49522' x='49999' y='45746'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='solid' />
+                    <format attr='border-width' value='1' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                    <format attr='background-color' value='#f9e9e0' />
+                  </zone-style>
+                </zone>
+                <zone h='2836' id='43' leg-item-layout='horz' name='Market wise Customer Aquisition Rank per Month' pane-specification-id='1' param='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' show-title='false' type-v2='color' w='36129' x='58838' y='53391'>
+                  <zone-style>
+                    <format attr='border-color' value='#000000' />
+                    <format attr='border-style' value='none' />
+                    <format attr='border-width' value='0' />
+                    <format attr='margin' value='4' />
+                    <format attr='padding' value='0' />
+                  </zone-style>
+                </zone>
+              </zone>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='8' />
+              </zone-style>
+            </zone>
+          </zones>
+        </devicelayout>
+      </devicelayouts>
+      <simple-id uuid='{749EA3E4-99C1-4780-8854-4D1DDF7D62F4}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='37'>
+    <window class='worksheet' name='Sales KPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6CEC6712-D558-44D2-A48A-267BF7999332}' />
+    </window>
+    <window class='worksheet' name='Profit KPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{6FC03648-200A-4E87-8290-2494B144A8DC}' />
+    </window>
+    <window class='worksheet' name='Order Quantity KPI'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{81401271-1EFC-49E4-9E83-760849494D53}' />
+    </window>
+    <window class='worksheet' name='Market Share by Sales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' type='color' />
+            <card pane-specification-id='1' param='[federated.0y7b457167men51dwj5y40osh8iw].[pcto:sum:Sales:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{D7912D5C-6E7B-4D3F-A6B2-CD3373A13D13}' />
+    </window>
+    <window class='worksheet' name='Category wise YTD vs PYTD Sales'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='3' param='[federated.0y7b457167men51dwj5y40osh8iw].[usr:Calculation_590253057007923204:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{DC199B49-FB23-4F1F-B369-7369A423D120}' />
+    </window>
+    <window class='worksheet' name='Market wise Customer Aquisition Rank per Month'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0y7b457167men51dwj5y40osh8iw].[none:Market:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{885B3DDD-64C1-423F-A7A3-CC299B71C469}' />
+    </window>
+    <window class='dashboard' maximized='true' name='DASHBOARD Ecommerce Sales'>
+      <viewpoints>
+        <viewpoint name='Category wise YTD vs PYTD Sales'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Market Share by Sales'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Market wise Customer Aquisition Rank per Month'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Order Quantity KPI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Profit KPI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Sales KPI'>
+          <zoom type='entire-view' />
+        </viewpoint>
+      </viewpoints>
+      <active id='28' />
+      <simple-id uuid='{F2B75CCB-7410-4F8A-86D0-9B7B86AEB52E}' />
+    </window>
+  </windows>
+</workbook>
