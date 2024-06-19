@@ -20,6 +20,6 @@ This project analyzes ecommerce sales data, providing insights into key performa
 ![Ecommerce Sales Analysis Dashboard](./Ecommerce-Sales/Ecommerce-Sales.png)
 
 ## Conclusion
-Each project in this repository provides valuable insights into different domains through interactive and comprehensive Power BI dashboards. Feel free to explore the data and share your insights!
+Each project in this repository provides valuable insights into different domains through interactive and comprehensive Tableau dashboards. Feel free to explore the data and share your insights!
 
 If you have any questions or need further assistance, please feel free to contact me.
