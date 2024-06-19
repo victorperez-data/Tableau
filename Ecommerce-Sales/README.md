@@ -6,7 +6,7 @@ This repository contains a Tableau project that provides a comprehensive analysi
 
 The Ecommerce Sales Analysis Dashboard is designed to compare current year metrics with the previous year, offering a detailed view of sales performance, market trends, and customer acquisition.
 
-![Ecommerce Sales Analysis Dashboard](./Ecommerce-Sales/Ecommerce-Sales.png)
+![Ecommerce Sales Analysis Dashboard](./Ecommerce-Sales.png)
 
 ### Key Metrics
 
