@@ -6,7 +6,7 @@ This repository contains a Tableau project that provides a comprehensive analysi
 
 The Netflix Data Analysis Dashboard is designed to visualize and explore different dimensions of Netflix's content library, offering a detailed view of content availability, audience preferences, and growth over time.
 
-![Netflix Data Analysis Dashboard](./Netflix/Netflix.PNG)
+![Netflix Data Analysis Dashboard](./Netflix.PNG)
 
 ### Key Metrics
 
