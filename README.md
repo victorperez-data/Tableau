@@ -19,7 +19,7 @@ This project analyzes ecommerce sales data, providing insights into key performa
 #### Dashboard Preview
 ![Ecommerce Sales Analysis Dashboard](./Ecommerce-Sales/Ecommerce-Sales.png)
 
-### 2. [Netflix Data Analysis](./Netflix-Data-Analysis)
+### 2. [Netflix Data Analysis](./Netflix)
 
 This project provides a comprehensive analysis of Netflix's movie and TV show data, offering insights into content distribution, genre popularity, ratings, and release trends.
 
