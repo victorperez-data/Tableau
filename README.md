@@ -19,6 +19,20 @@ This project analyzes ecommerce sales data, providing insights into key performa
 #### Dashboard Preview
 ![Ecommerce Sales Analysis Dashboard](./Ecommerce-Sales/Ecommerce-Sales.png)
 
+### 2. [Netflix Data Analysis](./Netflix-Data-Analysis)
+
+This project provides a comprehensive analysis of Netflix's movie and TV show data, offering insights into content distribution, genre popularity, ratings, and release trends.
+
+#### Dashboard Preview
+![Netflix Data Analysis Dashboard](./Netflix/Netflix.png)
+
+#### Key Metrics
+- **Content Type**
+- **Rating**
+- **Release Year**
+- **Country Distribution**
+- **Top Genres**
+
 ## Conclusion
 Each project in this repository provides valuable insights into different domains through interactive and comprehensive Tableau dashboards. Feel free to explore the data and share your insights!
 
