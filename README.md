@@ -8,6 +8,9 @@ This repository contains various Tableau projects that analyze different dataset
 
 This project analyzes ecommerce sales data, providing insights into key performance indicators (KPIs) such as sales, profit, order quantity, and market share by sales.
 
+#### Dashboard Preview
+![Ecommerce Sales Analysis Dashboard](./Ecommerce-Sales/Ecommerce-Sales.png)
+
 #### Key Metrics
 - **Sales**
 - **Profit**
@@ -15,9 +18,6 @@ This project analyzes ecommerce sales data, providing insights into key performa
 - **Market Share by Sales**
 - **Category-wise YTD vs PYTD Sales**
 - **Market-wise Customer Acquisition Rank per Month**
-
-#### Dashboard Preview
-![Ecommerce Sales Analysis Dashboard](./Ecommerce-Sales/Ecommerce-Sales.png)
 
 ### 2. [Netflix Data Analysis](./Netflix)
 
